@@ -1,4 +1,18 @@
 # tractrix/codelift-plugins#1308
 ---
 inspecode:
-  android-lint: default
+  spotbugs:
+  - options:
+      -targets:
+      - app
+      - colorpicker
+      - Paintroid
+  - options:
+      -targets:
+      - app
+  - options:
+      -targets:
+      - colorpicker
+  - options:
+      -targets:
+      - Paintroid
